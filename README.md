@@ -11,7 +11,7 @@ A convolutional neural network is also known as a ConvNet.
 ## Walkthrough the Files:
 1. Data Prepration for CNN (pickling):
    -In this code, we prepare a single data file of all the images combined which can be directly fed to our CNN.The labels are stored in a 
-    separate file nameed "Labels.pickle" which contain the corresponding label/class to the images.
+    separate file named "Labels.pickle" which contain the corresponding label/class to the images.
 2. CNN Model:
    -In this file , we train our model with data, and validate the model with data-file which we created.
 3. Prediction:
