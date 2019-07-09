@@ -78,9 +78,10 @@ X = np.array(X).reshape(-1,img_size,img_size,1)
 
 
 
+#creating separate files for storing data in one single file format
+#their are options like hdf5 format, pickling and much more....
 
-
-pickle_out = open('Dataset.pickle', "wb")
+pickle_out = open('Dataset.pickle', "wb") #wb-> writing mode in binary format
 pickle.dump(X,pickle_out)
 pickle_out.close()
 
@@ -88,9 +89,6 @@ pickle_out.close()
 pickle_out = open('Labels.pickle', 'wb')
 pickle.dump(Y,pickle_out)
 pickle_out.close()
-
-
-# In[ ]:
 
 
 pickle_in = open('Labels.pickle' , 'rb')
