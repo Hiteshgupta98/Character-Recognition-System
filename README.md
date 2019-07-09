@@ -18,4 +18,4 @@ A convolutional neural network is also known as a ConvNet.
    -This file predicts our models prediction. We input the image path in the function which is made in the respective file, and boom it 
     it gives the output.
     
-    #HAPPY RECOGNISING
+    # **HAPPY RECOGNISING**
